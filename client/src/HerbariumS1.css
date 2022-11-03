@@ -1,0 +1,177 @@
+html{
+	height:100%
+}
+
+body {
+	height:100%;
+	background-image: linear-gradient(to bottom , #225B0D , red); 
+	text-align: center;
+	font-size: 1.6vw;
+	padding:0;
+	border:0;
+	margin:0;
+	overflow:hidden;
+}
+
+header {
+	height:6%;
+	color: white;
+	font-family: fantasy;
+}
+
+#herbTitle {
+	color: #423009;
+	font-family: cursive;
+	font-size: 125%;
+}
+
+nav {
+	display: flex;
+	flex-basis: 100%;
+	height:5%;
+	border-style: solid;
+	border-color: #5BEC65;
+	border-width: 2px;
+}
+
+.navLink {
+	color: #796a4b;
+	font-family: cursive;
+	padding-left:5%;
+	padding-right:5%;
+}
+
+#homeLink{
+	padding-left:2%;
+}
+
+#infoNsearch {
+   color: white;
+   float: right;
+   width: 40%;
+   height: 85%;
+   background-color: #505451;
+}
+
+#info{
+	position: relative;
+	text-align: left;
+	border-bottom-width:3px;
+	border-bottom-color:#225B0D;
+	border-bottom-style:solid;
+	width:100%;
+	color:white;
+	height:50%;
+	font-size: 65%;
+	overflow: auto;
+}
+
+#infoList{
+	padding-left:5px; 
+	margin:0px; 
+	border:0px;
+}
+
+.infoListData{
+	line-height:330%;
+}
+
+#search{
+	height:50%;
+	width:100%;
+	font-size:75%;
+	font-family: cursive;
+}
+
+#searchEntry{
+	height: 100%;
+	width:50%;
+	float:right;
+	line-height:125%;
+	overflow: auto;
+}
+
+#floraTypeid{
+	padding-top:5%;
+}
+
+#imageSearch{
+	width:50%;
+	border-right-width:3px;
+	border-right-color:#225B0D;
+	border-right-style:solid;
+	height:100%;
+	font-size:100%;
+	/*overflow needs to be implemented
+	here, but it exhibits strange behavior.
+	Minor bug overall.*/
+}
+
+#prevImage{
+	height:90%;
+	width:45%;
+	float:left;
+	position:relative;
+	margin-top:5%;
+}
+
+#nextImage{
+	height:90%;
+	width:45%;
+	float:right;
+	position:relative;
+	margin-top:5%;
+}
+
+.pImage{
+	line-height:200%;
+	height:60%;
+}
+
+.floraPad{
+	line-height:200%;
+}
+
+.floraLabel{
+	line-height:50%;
+	font-size:80%;
+}
+
+article{
+	height:85%;
+	width:60%;
+	background-color:black;
+	color:white;
+}
+
+#iframeDiv{
+	height:100%;
+}
+
+footer{
+	position:relative;
+	display:flex;
+	background-color:#796a4b;
+	height:4%;
+	width:100%
+}
+
+.footLink{
+	text-decoration:underline;
+	font-size:45%;
+	padding-top:0.5%;
+	padding-left:12%;
+	padding-right:12%;
+}
+
+#meetLink{
+	padding-left:22%;
+}
+
+input{
+	text-align:center;
+}
+
+select{
+	text-align:center;
+}
